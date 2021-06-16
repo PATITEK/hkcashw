@@ -15,7 +15,7 @@ body{
 }
 /*-- banner --*/
 .w3-banner{
-	background: url(../images/products/product_5.jpg) no-repeat 0px 0px;
+	background: url(../images/products/product_10.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .w3-banner-1{
@@ -193,9 +193,10 @@ ul.nav.navbar-nav li.active a {
 .navbar-top .open > .dropdown-menu li a {
     display: block;
     color: #fff;
-    font-size: 1em;
+    font-size: 10px;
     padding: 0.5em 1em;
-    text-align: center;
+	text-align: left;
+	font-family: sans-serif;
 	border: solid 2px rgba(255, 255, 255, 0);
 }
 .navbar-top .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
@@ -235,18 +236,19 @@ ul.dropdown-menu {
 }
 .slider-info {
     text-align: center;
-    margin: 6em 0 0 0;
+    margin: 5em 0 0 0;
 }
 .slider-info h3{
-    font-size: 6em;
+    font-size: 5em;
     margin: 0;
     color: #FFF;
     font-weight: 100;
 }
 .slider-info p{
     color: #E8E8E8;
-    font-size: 1em;
-    margin: 1em 0 0 0;
+    font-size: 2em;
+	margin: 1em 0 0 0;
+	padding-bottom: 40px;
 }
 .more-button a{
     border: solid 2px #FFF;
@@ -789,11 +791,16 @@ P {
     text-align: center;
     margin-top: 4em;
 }
+.welcomerow-agileinfo h2{
+    color:green;
+    font-weight: 500;
+
+}
 .welcomerow-agileinfo h5{
-    font-size: 1.5em;
-    color:#FF5722;
+    font-size: 1.6em;
+    color:green;
     margin-bottom: 1em;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 3px;
 }
 .w3l-welcome-grid {
@@ -809,9 +816,8 @@ P {
 }
 .agileits-welcome-info h4 ,.services-grids h4{
     color: #333;
-    font-size: 1.3em;
+    font-size: 17px;
     margin: 1.3em 0 0.8em;
-    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
 	-webkit-transition:.5s all;
@@ -824,7 +830,7 @@ P {
     border-color: #ccc;
 }
 .w3l-welcome-grid:hover .agileits-welcome-info h4 {
-    color: #FF5722;
+    color: green;
 }
 /*-- //welcome --*/
 /*-- subscribe --*/
